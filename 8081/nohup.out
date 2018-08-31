@@ -1,0 +1,239 @@
+1534499401290111839 [Info] [db opened]
+2018/08/17 02:50:01 7808 :8080
+2018/08/17 02:50:01 7808 0.0.0.0:8090
+1534499419101923141 [Info] [db opened]
+2018/08/17 02:50:19 net.Listen error: listen tcp :8080: bind: address already in use
+2018/08/17 02:50:19.106 [1;35m[C] [asm_amd64.s:2337] ListenAndServe:  net.Listen error: listen tcp :8080: bind: address already in use 7817[0m
+1534499463023705869 [Info] [db opened]
+2018/08/17 02:51:03 net.Listen error: listen tcp :8080: bind: address already in use
+2018/08/17 02:51:03.029 [1;35m[C] [asm_amd64.s:2337] ListenAndServe:  net.Listen error: listen tcp :8080: bind: address already in use 7846[0m
+1534499513357996635 [Info] [db opened]
+2018/08/17 02:51:53 net.Listen error: listen tcp :8080: bind: address already in use
+2018/08/17 02:51:53.363 [1;35m[C] [asm_amd64.s:2337] ListenAndServe:  net.Listen error: listen tcp :8080: bind: address already in use 7860[0m
+1534499907756476233 [Info] [db opened]
+2018/08/17 02:58:27 net.Listen error: listen tcp :8080: bind: address already in use
+2018/08/17 02:58:27.761 [1;35m[C] [asm_amd64.s:2337] ListenAndServe:  net.Listen error: listen tcp :8080: bind: address already in use 7911[0m
+2018/08/17 02:58:49.394 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 02:58:49] "GET / HTTP/1.1 200 0" 0.006718  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/17 02:58:49.428 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 02:58:49] "GET /static/js/reload.min.js HTTP/1.1 200 0" 0.006684 https://192.168.150.130:8090/ Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/17 02:59:03 7808 Received SIGHUP. forking.
+2018/08/17 02:59:03 7808 Received SIGHUP. forking.
+2018/08/17 02:59:03 [0xc42000e028 0xc42000e050]
+2018/08/17 02:59:03 [-graceful -socketorder=:8080,0.0.0.0:8090]
+1534499943518286007 [Info] [db opened]
+2018/08/17 02:59:03 laddr :8080 ptr offset 0
+2018/08/17 02:59:03 7927 :8080
+2018/08/17 02:59:03 7808 Received SIGTERM.
+2018/08/17 02:59:03 7808 [::]:8090 Listener closed.
+2018/08/17 02:59:03 7808 Received SIGTERM.
+2018/08/17 02:59:03 7808 [::]:8080 Listener closed.
+2018/08/17 02:59:03 7808 Waiting for connections to finish...
+2018/08/17 02:59:03 7808 Waiting for connections to finish...
+2018/08/17 02:59:03.524 [1;35m[C] [asm_amd64.s:2337] ListenAndServe:  accept tcp [::]:8080: use of closed network connection 7808[0m
+2018/08/17 02:59:03 laddr 0.0.0.0:8090 ptr offset 1
+2018/08/17 02:59:03 7927 0.0.0.0:8090
+2018/08/17 02:59:09.541 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 02:59:09] "GET / HTTP/1.1 200 0" 0.003963  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/17 02:59:10.693 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 02:59:10] "GET / HTTP/1.1 200 0" 0.002964  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/17 02:59:11.452 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 02:59:11] "GET / HTTP/1.1 200 0" 0.041855  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/17 02:59:23.930 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 02:59:23] "GET / HTTP/1.1 200 0" 0.003585  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/17 03:00:35.396 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:00:35] "GET / HTTP/1.1 200 0" 0.002805  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+1534500041603738804 [Trace] [http req]: {
+	"identify_type":"phone",
+	"identifier":"15033156272",
+	"credential":"123456",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534500041604053652 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:phone,15033156272,
+2018/08/17 03:00:41.675 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:00:41] "POST /login HTTP/1.1 200 0" 0.071571  PostmanRuntime/6.2.5
+[0m
+1534500052717198111 [Trace] [sql]: select nickname,avatar,createtime from users where id = ?; args:5b765f896ed11b29a406a8e9,
+1534500052718634387 [Trace] [sql]: select identify_type,identifier from user_auths where user_id = ?; args:5b765f896ed11b29a406a8e9,
+2018/08/17 03:00:52.719 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:00:52] "GET /userinfo HTTP/1.1 200 0" 0.002845  PostmanRuntime/6.2.5
+[0m
+1534500072744189319 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"123456",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534500072744513819 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/17 03:01:12.745 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:01:12] "POST /login HTTP/1.1 400 0" 0.001421  PostmanRuntime/6.2.5
+[0m
+1534500110060796870 [Trace] [http req]: {
+	"nickname":"dasdasfa",
+	"avatar":"sadsad",
+	"phone":"",
+	"email":"478306328@qq.com",
+	"credential":"saisai@@"
+}
+1534500110060898187 [Trace] [sql]: select * from users where nickname = ?; args:dasdasfa,
+1534500110062202651 [Trace] [sql]: insert into users (id,nickname,avatar,createtime) values (?,?,?,?); args:5b769d0e1d41c81ef721eec7,dasdasfa,sadsad,2018-8-17 3:1:50,
+1534500110197513997 [Trace] [sql]: insert into user_auths (user_id,identify_type,identifier,credential,registertime) values (?,?,?,?,?); args:5b769d0e1d41c81ef721eec7,email,478306328@qq.com,saisai@@,2018-8-17 3:1:50,
+2018/08/17 03:01:50.212 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:01:50] "POST /register HTTP/1.1 200 0" 0.151584  PostmanRuntime/6.2.5
+[0m
+1534500118660497578 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534500118660870178 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/17 03:01:58.662 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:01:58] "POST /login HTTP/1.1 200 0" 0.001614  PostmanRuntime/6.2.5
+[0m
+1534500125600592333 [Trace] [sql]: select nickname,avatar,createtime from users where id = ?; args:5b769d0e1d41c81ef721eec7,
+1534500125601548779 [Trace] [sql]: select identify_type,identifier from user_auths where user_id = ?; args:5b769d0e1d41c81ef721eec7,
+2018/08/17 03:02:05.602 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:02:05] "GET /userinfo HTTP/1.1 200 0" 0.002010  PostmanRuntime/6.2.5
+[0m
+1534500428569217350 [Info] [db opened]
+2018/08/17 03:07:08 2128 :8080
+2018/08/17 03:07:08 2128 0.0.0.0:8090
+1534500443684715171 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534500443685022895 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/17 03:07:23.750 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:07:23] "POST /login HTTP/1.1 200 0" 0.066271  PostmanRuntime/6.2.5
+[0m
+1534500450258812542 [Trace] [sql]: select nickname,avatar,createtime from users where id = ?; args:5b769d0e1d41c81ef721eec7,
+1534500450278014533 [Trace] [sql]: select identify_type,identifier from user_auths where user_id = ?; args:5b769d0e1d41c81ef721eec7,
+2018/08/17 03:07:30.285 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 03:07:30] "GET /userinfo HTTP/1.1 200 0" 0.027002  PostmanRuntime/6.2.5
+[0m
+1534506745956155843 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534506746134870834 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/17 04:52:26.935 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 04:52:25] "POST /login HTTP/1.1 200 0" 1.021413  PostmanRuntime/6.2.5
+[0m
+1534506755082647138 [Trace] [sql]: select nickname,avatar,createtime from users where id = ?; args:5b769d0e1d41c81ef721eec7,
+1534506755098831516 [Trace] [sql]: select identify_type,identifier from user_auths where user_id = ?; args:5b769d0e1d41c81ef721eec7,
+2018/08/17 04:52:35.099 [1;44m[D] [server.go:2619] 192.168.150.1 - - [17/Aug/2018 04:52:35] "GET /userinfo HTTP/1.1 200 0" 0.017648  PostmanRuntime/6.2.5
+[0m
+2018/08/19 18:35:16.016 [1;44m[D] [server.go:2619] 192.168.150.1 - - [19/Aug/2018 06:35:15] "GET / HTTP/1.1 200 0" 0.867521  Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+2018/08/19 18:35:16.853 [1;44m[D] [server.go:2619] 192.168.150.1 - - [19/Aug/2018 06:35:16] "GET /static/js/reload.min.js HTTP/1.1 200 0" 0.318970 https://192.168.150.130:8090/ Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36
+[0m
+1534748303991063314 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534748304292818764 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/19 23:58:25.338 [1;44m[D] [server.go:2619] 192.168.150.1 - - [19/Aug/2018 11:58:23] "POST /login HTTP/1.1 200 0" 1.359560  PostmanRuntime/6.2.5
+[0m
+1534748940488956288 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534748940499904817 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:09:00.601 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:09:00] "POST /login HTTP/1.1 200 0" 0.113055  PostmanRuntime/6.2.5
+[0m
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     1534750163707604887 [Info] [db opened]
+2018/08/20 00:29:24 2280 :8080
+2018/08/20 00:29:24 2280 0.0.0.0:8090
+1534750166865763502 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534750166867150331 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:29:27.900 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:29:26] "POST /login HTTP/1.1 200 0" 1.071171  PostmanRuntime/6.2.5
+[0m
+1534750788379611328 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534750788442813725 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:39:48.682 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:39:48] "POST /login HTTP/1.1 200 0" 0.307748  PostmanRuntime/6.2.5
+[0m
+1534751369727200223 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534751369727997680 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:49:29.741 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:49:29] "POST /login HTTP/1.1 200 0" 0.014214  PostmanRuntime/6.2.5
+[0m
+2018/08/20 00:50:31 2280 Received SIGHUP. forking.
+2018/08/20 00:50:31 2280 Received SIGHUP. forking.
+2018/08/20 00:50:31 [0xc420396018 0xc420396020]
+2018/08/20 00:50:31 [-graceful -socketorder=:8080,0.0.0.0:8090]
+1534751432146151853 [Info] [db opened]
+2018/08/20 00:50:32 laddr :8080 ptr offset 0
+2018/08/20 00:50:32 4451 :8080
+2018/08/20 00:50:32 2280 Received SIGTERM.
+2018/08/20 00:50:32 2280 Received SIGTERM.
+2018/08/20 00:50:32 2280 [::]:8090 Listener closed.
+2018/08/20 00:50:32 2280 [::]:8080 Listener closed.
+2018/08/20 00:50:32 2280 Waiting for connections to finish...
+2018/08/20 00:50:32 2280 Waiting for connections to finish...
+2018/08/20 00:50:32.174 [1;35m[C] [asm_amd64.s:2337] ListenAndServeTLS:  accept tcp [::]:8090: use of closed network connection 2280[0m
+2018/08/20 00:50:32 laddr 0.0.0.0:8090 ptr offset 1
+2018/08/20 00:50:32 4451 0.0.0.0:8090
+1534751434894638271 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534751434894830017 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:50:34.903 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:50:34] "POST /login HTTP/1.1 200 0" 0.008712  PostmanRuntime/6.2.5
+[0m
+1534751451594217077 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534751451594729416 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:50:51.596 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:50:51] "POST /login HTTP/1.1 200 0" 0.002000  PostmanRuntime/6.2.5
+[0m
+1534751452490079305 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534751452490458263 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:50:52.491 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:50:52] "POST /login HTTP/1.1 200 0" 0.001950  PostmanRuntime/6.2.5
+[0m
+1534751600812526892 [Trace] [http req]: {
+	"identify_type":"email",
+	"identifier":"478306328@qq.com",
+	"credential":"saisai@@",
+	"captcha_id":"ujHz2EVYtKJKY9g7bLYz",
+	"value":"143867"
+}
+1534751600812986715 [Trace] [sql]: select user_id,identify_type,identifier,credential from user_auths where identify_type = ? and identifier = ?; args:email,478306328@qq.com,
+2018/08/20 00:53:20.814 [1;44m[D] [server.go:2619] 192.168.150.1 - - [20/Aug/2018 12:53:20] "POST /login HTTP/1.1 200 0" 0.001702  PostmanRuntime/6.2.5
+[0m
